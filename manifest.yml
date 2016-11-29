@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: branquinho-app
+  host: branquinho-app
+  disk_quota: 1024M
+  services:
+  - branquinho-app-AdvancedMobileAccess
+  - branquinho-app-imfpush
+  - branquinho-app-cloudantNoSQLDB
